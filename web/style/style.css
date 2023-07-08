@@ -1,100 +1,96 @@
 /* Reset default styles */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 /*this section is for the general site, page specific things will be sectioned or have own file if needed*/
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
 }
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #333;
-    padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 20px;
 }
 header h1 {
-    color: #fff;
+  color: #fff;
 }
 nav ul {
-    list-style-type: none; 
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 nav ul li {
-    display: inline;
+  display: inline;
 }
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
 }
 .container div {
-    height: 100vh;
+  height: 100vh;
 }
-
 
 /*Hero Section styles*/
 #hero {
-    background-image: url('https://dotesports.com/wp-content/uploads/2020/02/03134758/Screenshot_2020-02-03-Apex-Legends-Season-4-%E2%80%93-Assimilation-Gameplay-Trailer.png');
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 100px;
-    color: #fff;
+  background-image: url("/web/media/Screenshot_2020-02-03-Apex-Legends-Season-4-–-Assimilation-Gameplay-Trailer.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px;
+  color: #fff;
 }
 #hero h2 {
-    font-size: 36px;
-    margin-top: 45px;
-    margin-bottom: 20px;
+  font-size: 36px;
+  margin-top: 45px;
+  margin-bottom: 20px;
 }
 #hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 /*this is for the guides section*/
 #guides {
-    padding: 50px;
+  padding: 50px;
 }
 #guides h2 {
-    font-size: 24px;
+  font-size: 24px;
 }
 .guide {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /*footer styles*/
 
-
 /*this section is for the tables and graph portions of the site*/
 
 #statsBody {
-    font-family: arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 #statsH1 {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 #tableContainer {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 #dataChart {
-    width: 100%;
-    height: 400px;
+  width: 100%;
+  height: 400px;
 }
 #chartContainer {
-    margin-top: 30px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
